@@ -27,13 +27,13 @@ My research interest includes HCI, and UX design.
 
 
 <span class='anchor' id='news'></span>
-# 🎖News
+# News
 - *2024.10*: &nbsp;🎉🎉 I am going to attend UIST24 in Pittsburgh, US! 
 - *2024.10*: &nbsp;🎉🎉 Our paper will be displayed at UIST24 at 10.14!
 
 <span class='anchor' id='publications'></span>
 
-# 🎖Publications 
+# Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST24</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -46,20 +46,31 @@ My research interest includes HCI, and UX design.
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp23 Poster</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+[SocializeChat: ]()
+
+*Yuyang Fang, **Yunkai Xu**, Zhuyu Teng, Zhaoqu Jiang, Wei Xiang*
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+
+
+<span class='anchor' id='projects'></span>
+# Projects
+
 
 <span class='anchor' id='educations'></span>
-# 📖 Educations
+# Educations
 - *2024.08 - now*, Penn State University, Informatics
 - *2020.09 - 2024.06*, Zhejiang University, Industrial Design
 
 <span class='anchor' id='internships'></span>
-# 💻 Internships
+# Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
 
 
-# 🎖 Honors and Awards
+# Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
