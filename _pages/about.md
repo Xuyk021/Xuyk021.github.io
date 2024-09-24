@@ -22,23 +22,15 @@ My Name is **Yunkai Xu (徐 云楷)**. I am currently pursuing a master's degree
 I completed my undergraduate degree in Industrial Design at the School of Computer Science and Technology at Zhejiang University. During this time, my advisor was [Prof. Wang Guanyun](https://guanyundesign.com/) and [Dr. Wei Xiang](https://person.zju.edu.cn/en/0617496).
 
 My research interest includes HCI, and UX design.
-sdsdasd
-sdadasd
-sadasd
-asdasd
-asdasd
-asdasd
-sadasd
-sdasd
 
 <!--My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).-->
 
 
-# News
+# 🎖News
 - *2024.10*: &nbsp;🎉🎉 I am going to attend UIST24 in Pittsburgh, US! 
 - *2024.10*: &nbsp;🎉🎉 Our paper will be displayed at UIST24 at 10.14!
 
-# Publications 
+# 🎖Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST24</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
