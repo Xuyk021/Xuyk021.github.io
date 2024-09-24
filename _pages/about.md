@@ -46,7 +46,7 @@ My research interest includes HCI, and UX design.
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp23 Poster</div><img src='images/Socialize.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp23 Poster</div><img src='images/SocializeChat.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SocializeChat: a GPT-based AAC Tool for Social Communication Through Eye Gazing](https://dl.acm.org/doi/10.1145/3594739.3610705)
