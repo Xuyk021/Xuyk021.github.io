@@ -26,13 +26,13 @@ My research interest includes HCI, and UX design.
 <!--My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).-->
 
 
-
+<span class='anchor' id='news'></span>
 # News
 - *2024.10*: &nbsp;🎉🎉 I am going to attend UIST24 in Pittsburgh, US! 
 - *2024.10*: &nbsp;🎉🎉 Our paper will be displayed at UIST24 at 10.14!
 
 
-
+<span class='anchor' id='publications'></span>
 # Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST24</div><img src='images/Xhair.png' alt="sym" width="100%"></div></div>
@@ -58,21 +58,22 @@ My research interest includes HCI, and UX design.
 </div>
 </div>
 
-
+<span class='anchor' id='projects'></span>
 # Projects
 
 </div>
 </div>
 
+<span class='anchor' id='educations'></span>
 # Educations
 - *2024.08 - now*, Penn State University, Informatics
 - *2020.09 - 2024.06*, Zhejiang University, Industrial Design
 
-
+<span class='anchor' id='internships'></span>
 # Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
 
-
+<span class='anchor' id='honors-and-awards'></span>
 # Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
