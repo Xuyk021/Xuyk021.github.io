@@ -7,9 +7,9 @@
 
 # Site Settings
 title                    : "Yunkai Xu"
-description              : "I am a HCI researcher!"
+description              : "Master of Science, Informatics"
 repository               : "Xuyk021/Xuyk021.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -22,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Yunkai Xu"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Penn State University"
+  avatar           : "images/myphoto-512x512.png"
+  bio              : "Penn State University, Information Sciences and Technology"
   location         : "State College, PA, US"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=epNtq58AAAAJ"
-  email            : "Lorem@ipsum.com"
+  email            : "liyexu09@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "云楷-徐-b36a25299"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
