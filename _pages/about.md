@@ -35,21 +35,21 @@ My research interest includes HCI, and UX design.
 
 # Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST24</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST24</div><img src='images/Xhair.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Xhair: 3D Printing Hair-like Structures with Multi-form, Multi-property and Multi-function]()
 
 *Guanyun Wang, Junzhe Ji, **Yunkai Xu**, Lei Ren, Xiaoyang Wu, Chunyuan Zheng, Xiaojing Zhou, Xin Tang, Boyu Feng, Lingyun Sun, Ye Tao, Jiaji Li*
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+<!--[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>-->
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp23 Poster</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp23 Poster</div><img src='images/Socialize.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SocializeChat: ]()
+[SocializeChat: a GPT-based AAC Tool for Social Communication Through Eye Gazing](https://dl.acm.org/doi/10.1145/3594739.3610705)
 
 *Yuyang Fang, **Yunkai Xu**, Zhuyu Teng, Zhaoqu Jiang, Wei Xiang*
 
