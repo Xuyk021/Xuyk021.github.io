@@ -55,11 +55,14 @@ My research interest includes HCI, and UX design.
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 
+</div>
+</div>
 
 <span class='anchor' id='projects'></span>
 # Projects
 
-
+</div>
+</div>
 <span class='anchor' id='educations'></span>
 # Educations
 - *2024.08 - now*, Penn State University, Informatics
