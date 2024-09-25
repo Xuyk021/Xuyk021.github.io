@@ -32,7 +32,6 @@ My research interest includes HCI, and UX design.
 - *2024.10*: &nbsp;🎉🎉 Our paper will be displayed at UIST24 at 10.14!
 
 
-<span class='anchor' id='publications'></span>
 # Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST24</div><img src='images/Xhair.png' alt="sym" width="100%"></div></div>
@@ -43,7 +42,7 @@ My research interest includes HCI, and UX design.
 *Guanyun Wang, Junzhe Ji, **Yunkai Xu**, Lei Ren, Xiaoyang Wu, Chunyuan Zheng, Xiaojing Zhou, Xin Tang, Boyu Feng, Lingyun Sun, Ye Tao, Jiaji Li*
 
 <!--[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>-->
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- We created hair-like structures with commercial FDM 3D-printer. We also explored its design space and potenial interaction.
 </div>
 </div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp23 Poster</div><img src='images/SocializeChat.png' alt="sym" width="100%"></div></div>
@@ -51,30 +50,62 @@ My research interest includes HCI, and UX design.
 
 [SocializeChat: a GPT-based AAC Tool for Social Communication Through Eye Gazing](https://dl.acm.org/doi/10.1145/3594739.3610705)
 
-*Yuyang Fang, **Yunkai Xu**, Zhuyu Teng, Zhaoqu Jiang, Wei Xiang*
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+*Yuyang Fang, **Yunkai Xu**, Zhuyu Teng, Zhaoqu Jiang, Wei Xiang*<br>
+[**\[View Project\]**](https://drive.google.com/file/d/1iJgm_h9B3rv5XqvTtM8UvtzuC3nQmEfW/view?usp=sharing)
+- We designed a mobile application with ChatGPT for people with physical disabilities, helping them to have fluent and engaging social conversations with others. 
 
 </div>
 </div>
 
-<span class='anchor' id='projects'></span>
+
 # Projects
 
+<div class='paper-box'><div class='paper-box-image'><img src='images/Light.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+**SmartLumina: In-car Lighting Interactive Design**
+
+Tags: *Gesture Interaction Design, User Research*<br>
+
+[**\[View Full Project\]**](https://drive.google.com/file/d/18vZib9fVb6iOD1fqG9j-4w8MNixu-006/view?usp=drive_link)
+
+- This project has developed a new interaction system designed for both autonomous drivers and regular passengers familiar with these vehicle conditions. The system enables natural interaction through gestures and provides relaxing feedback through lighting.
+
 </div>
 </div>
 
-<span class='anchor' id='educations'></span>
+<div class='paper-box'><div class='paper-box-image'><img src='images/Chase.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+**Chasing: A VR Parkour Game**
+
+Tags: *Game Interaction Design, VR and Unity development*
+
+*Yuyang Fang, Zhaoqu Jiang, Zhuyu Teng, **Yunkai Xu**, Wanyin Yan, Zhen Zhang, Kexin Lin*
+
+[**\[View Full Project\]**](https://drive.google.com/file/d/18vZib9fVb6iOD1fqG9j-4w8MNixu-006/view?usp=drive_link)[**\[View Video\]**](https://youtu.be/_kjDjdT_kkg)
+
+- The theme style of this VR parkour game is "Data Punk" parkour game. Players experience the game from a first-person perspective and interact using VR controllers. 
+
+
+
+</div>
+</div>
+
 # Educations
 - *2024.08 - now*, Penn State University, Informatics
 - *2020.09 - 2024.06*, Zhejiang University, Industrial Design
 
-<span class='anchor' id='internships'></span>
-# Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
 
-<span class='anchor' id='honors-and-awards'></span>
+# Internships
+- *2023.04 - 2024.04*, [International Design Institute of Zhejiang University](http://www.idi.zju.edu.cn/), Hangzhou, China.
+- *2022.04 - 2023.04*, [PeaLeap](https://www.paeleap.com/), Hangzhou, China
+
+
 # Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024* Outstanding Graduate Thesis
+- *2020 - 2022* Academic Excellence Student Model
+- *2020 - 2022* **Third Prize**, Academic Scholarships of Zhejiang University
+- *2022* **Third Prize in East China**, China Collegiate Computing Contest
+- *2022* **Second Prize**, Zhejiang University Industrial Design Competition
 
