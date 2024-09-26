@@ -19,7 +19,7 @@ redirect_from:
 
 My Name is **Yunkai Xu (徐 云楷)**. I am currently pursuing a master's degree in MS Informatics at *Penn State University*.
 
-I completed my undergraduate degree in Industrial Design at the School of Computer Science and Technology at Zhejiang University. During this time, my advisor was [Prof. Wang Guanyun](https://guanyundesign.com/) and [Dr. Wei Xiang](https://person.zju.edu.cn/en/0617496).
+I completed my undergraduate degree in Industrial Design at the School of Computer Science and Technology at Zhejiang University. During this time, my advisor was [Prof. Wang Guanyun (王 冠云)](https://guanyundesign.com/) and [Dr. Wei Xiang (向 为)](https://person.zju.edu.cn/en/0617496).
 
 My research interest includes HCI, and UX design.
 
