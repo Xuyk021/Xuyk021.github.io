@@ -17,13 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My Name is **Yunkai Xu (徐 云楷)**. I am currently pursuing a master's degree in MS Informatics at *Penn State University*.
+**Yunkai Xu (徐 云楷)** is currently pursuing a master's degree in MS Informatics at *Penn State University*.
+<br>
+<br>
 
-I completed my undergraduate degree in Industrial Design at the School of Computer Science and Technology at Zhejiang University. During this time, my advisor was [Prof. Wang Guanyun (王 冠云)](https://guanyundesign.com/) and [Dr. Wei Xiang (向 为)](https://person.zju.edu.cn/en/0617496).
+He completed the undergraduate degree in Industrial Design at the *School of Computer Science and Technology at Zhejiang University*. During this time, his advisors were [**Prof. Wang Guanyun (王 冠云)**](https://guanyundesign.com/) and [**Dr. Wei Xiang (向 为)**](https://person.zju.edu.cn/en/0617496).
+<br>
+<br>
 
-My research interest includes HCI, and UX design.
+His research interests include Human Computer Interaction (HCI), Design and Corperation. He seeks to understand the motivations, behaviors, and expectations of diverse groups in various real-world scenarios and aims to leverage AI-based systems to meet their needs.
+<br>
+<br>
 
-[\[Download My CV\]](/cv/XU%20Yunkai%20CV.pdf "My CV")[\[View My Portfolio\]](https://yunkaidesign.top "View My Portfolio")
+[**\[Download CV\]**](/cv/XU%20Yunkai%20CV.pdf "My CV")[**\[View Portfolio\]**](https://yunkaidesign.top "View My Portfolio")
 
 <!--My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).-->
 
@@ -31,7 +37,7 @@ My research interest includes HCI, and UX design.
 <span class='anchor' id='news'></span>
 # News
 - *2024.10*: &nbsp;🎉🎉 I am going to attend UIST24 in Pittsburgh, US! 
-- *2024.10*: &nbsp;🎉🎉 Our paper will be displayed at UIST24 at 10.14!
+- *2024.10*: &nbsp;🎉🎉 Our paper will be presented at UIST24 at Oct.14<sup>th</sup>!
 
 
 # Publications 
@@ -39,7 +45,7 @@ My research interest includes HCI, and UX design.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST24</div><img src='images/Xhair.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Xhair: 3D Printing Hair-like Structures with Multi-form, Multi-property and Multi-function]()
+[**Xhair: 3D Printing Hair-like Structures with Multi-form, Multi-property and Multi-function**]()
 
 *Guanyun Wang, Junzhe Ji, **Yunkai Xu**, Lei Ren, Xiaoyang Wu, Chunyuan Zheng, Xiaojing Zhou, Xin Tang, Boyu Feng, Lingyun Sun, Ye Tao, Jiaji Li*
 
@@ -50,7 +56,7 @@ My research interest includes HCI, and UX design.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ubicomp23 Poster</div><img src='images/SocializeChat.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SocializeChat: a GPT-based AAC Tool for Social Communication Through Eye Gazing](https://dl.acm.org/doi/10.1145/3594739.3610705)
+[**SocializeChat: a GPT-based AAC Tool for Social Communication Through Eye Gazing**](https://dl.acm.org/doi/10.1145/3594739.3610705)
 
 *Yuyang Fang, **Yunkai Xu**, Zhuyu Teng, Zhaoqu Jiang, Wei Xiang*<br>
 [**\[View Project\]**](https://drive.google.com/file/d/1iJgm_h9B3rv5XqvTtM8UvtzuC3nQmEfW/view?usp=sharing)
