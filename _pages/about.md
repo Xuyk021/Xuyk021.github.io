@@ -91,7 +91,7 @@ Tags: *Game Interaction Design, VR and Unity development*
 
 *Yuyang Fang, Zhaoqu Jiang, Zhuyu Teng, **Yunkai Xu**, Wanyin Yan, Zhen Zhang, Kexin Lin*
 
-[**\[View Full Project\]**](https://drive.google.com/file/d/18vZib9fVb6iOD1fqG9j-4w8MNixu-006/view?usp=drive_link)[**\[View Video\]**](https://youtu.be/_kjDjdT_kkg)
+[**\[View Full Project\]**](https://drive.google.com/file/d/1OxMdiYihEW0a_p1gSHrW2J_TFqt5s_4W/view?usp=drive_link)[**\[View Video\]**](https://youtu.be/_kjDjdT_kkg)
 
 - The theme style of this VR parkour game is "Data Punk" parkour game. Players experience the game from a first-person perspective and interact using VR controllers. 
 
