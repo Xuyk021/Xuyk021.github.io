@@ -45,7 +45,7 @@ His research interests include Human Computer Interaction (HCI), Design and Corp
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST24</div><img src='images/Xhair.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Xhair: 3D Printing Hair-like Structures with Multi-form, Multi-property and Multi-function**]()
+[**Xhair: 3D Printing Hair-like Structures with Multi-form, Multi-property and Multi-function**](https://doi.org/10.1145/3654777.3676360)
 
 *Guanyun Wang, Junzhe Ji, **Yunkai Xu**, Lei Ren, Xiaoyang Wu, Chunyuan Zheng, Xiaojing Zhou, Xin Tang, Boyu Feng, Lingyun Sun, Ye Tao, Jiaji Li*
 
