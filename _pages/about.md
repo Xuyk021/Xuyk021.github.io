@@ -25,7 +25,7 @@ He completed the undergraduate degree in Industrial Design at the *School of Com
 <br>
 <br>
 
-His research interests include Human Computer Interaction (HCI), Design and Corperation. He seeks to understand the motivations, behaviors, and expectations of diverse groups in various real-world scenarios and aims to leverage AI-based systems to meet their needs.
+His research interests encompass Human-Computer Interaction (HCI), Human-AI Collaboration, and Design. He seeks to understand user behaviors and expectations in real-world scenarios to create AI systems that enhance various human-AI collaboration. Additionally, he is also interested in design and fabrication, focusing on how emerging technologies can be used to innovate manufacturing processes and improve design workflows.
 <br>
 <br>
 
