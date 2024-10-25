@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+*Making impossible things possible, making possible things easy  ---Scott Hudson*
+
 **Yunkai Xu (徐 云楷)** is currently pursuing a master's degree in MS Informatics at *Penn State University*.
 <br>
 <br>
