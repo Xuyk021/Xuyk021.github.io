@@ -1,0 +1,17 @@
+{
+    "name": "SocializeChat",
+    "year": 2024,
+    "images": [
+        "./projects-data/SocializeChat/socializechat-teaser-1.png",
+        "./projects-data/SocializeChat/socializechat-teaser-2.png",
+        "./projects-data/SocializeChat/socializechat-teaser-3.png"
+    ], 
+    "authors": "Yuyang Fang, Yunkai Xu, Zhuyu Teng, Zhaoqu Jiang, Wei Xiang",
+    "abstract": "People with motor and speech impairments has limited communication abilities, resulting in a heavy reliance on Augmentative and Alternative Communication (AAC) tools. Existing commercial AAC tools provide simple combination of fixed words, satisfying basic physiological needs while encounter huge challenges in social communication. This social communication is significant for users’ mental health, especially for those with limited motor abilities. This article thus developed SocializeChat, an AAC tool that employs LLM technology to boost social chat with gaze inputs. Specifically, SocializeChat generates multiple sentences of conversation in real time, offers suggestions tailoring to users' preferences of topics, and phrases sentences in a style in accord with the relationship of people in conversation. This is achieved through a user dataset containing content preferences and social closeness, and through dedicated design of prompts and procedures. In a brief testing, SocializeChat was rated as effectively embodying subjects' own content preferences and communication style.",
+    "pdf": "https://drive.google.com/file/d/1iJgm_h9B3rv5XqvTtM8UvtzuC3nQmEfW/view",
+    "publication": "https://dl.acm.org/doi/10.1145/3594739.3610705",
+    "video": "",
+    "showPdf": true,
+    "showPublication": true,
+    "showVideo": false
+}

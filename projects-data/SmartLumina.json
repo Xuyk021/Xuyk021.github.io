@@ -1,0 +1,17 @@
+{
+    "name": "SmartLumina",
+    "year": 2023,
+    "images": [
+        "./projects-data/SmartLumina/smartlumina-teaser-1.png",
+        "./projects-data/SmartLumina/smartlumina-teaser-2.png",
+        "./projects-data/SmartLumina/smartlumina-teaser-3.png"
+    ], 
+    "authors": "Yunkai Xu",
+    "abstract": "As autonomous driving technology continues to evolve, an increasing number of passengers are seeking a more relaxing travel experience. In addition to existing features such as voice control, soothing music, and automatic seat adjustments, interior lighting can also contribute to a more relaxing interactive experience for passengers.\n\nTo this end, this project has developed a new interaction system designed for both autonomous drivers and regular passengers familiar with these vehicle conditions. The system enables natural interaction through gestures and provides relaxing feedback through lighting.",
+    "pdf": "https://drive.google.com/file/d/18vZib9fVb6iOD1fqG9j-4w8MNixu-006/view?usp=sharing",
+    "publication": "",
+    "video": "",
+    "showPdf": true,
+    "showPublication": false,
+    "showVideo": false
+}

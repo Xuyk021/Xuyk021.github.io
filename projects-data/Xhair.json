@@ -1,0 +1,19 @@
+{
+    "name": "Xhair",
+    "year": 2024,
+    "images": [
+        "./projects-data/Xhair/xhair-teaser-1.png",
+        "./projects-data/Xhair/xhair-teaser-2.png",
+        "./projects-data/Xhair/xhair-teaser-3.png",
+        "./projects-data/Xhair/xhair-teaser-4.png",
+        "./projects-data/Xhair/xhair-teaser-5.png"
+    ], 
+    "authors": "Guanyun Wang, Junzhe Ji, Yunkai Xu, Lei Ren, Xiaoyang Wu, Chunyuan Zheng, Xiaojing Zhou, Xin Tang, Boyu Feng, Lingyun Sun, Ye Tao, Jiaji Li",
+    "abstract": "In this paper, we present X-Hair, a method that enables 3D-printed hair with various forms, properties, and functions. We developed a two-step suspend printing strategy to fabricate hair-like structures in different forms (e.g. fluff, bristle, barb) by adjusting parameters including Extrusion Length Ratio and Total Length. Moreover, a design tool is also established for users to customize hair-like structures with various properties (e.g. pointy, stiff, soft) on imported 3D models, which virtually shows the results for previewing and generates G-code files for 3D printing. We demonstrate the design space of X-Hair and evaluate the properties of them with different parameters. Through a series of applications with hair-like structures, we validate X-hair's practical usage of biomimicry, decoration, heat preservation, adhesion, and haptic interaction.",
+    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3654777.3676360",
+    "publication": "https://dl.acm.org/doi/10.1145/3654777.3676360",
+    "video": "https://dl.acm.org/doi/suppl/10.1145/3654777.3676360/suppl_file/uist24a-sub1767-cam-i36.mp4",
+    "showPdf": true,
+    "showVideo": true,
+    "showPublication": true
+}

@@ -1,0 +1,166 @@
+/* 页面主容器 - 纵向排列 */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px; /* 限制最大宽度 */
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 50px;
+    box-sizing: border-box;
+    margin-top: 100px; /* 增加顶部间距 */
+}
+
+/* About 标题 */
+.about__title {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* 引言 */
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* 个人信息区块 */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+/* 个人简介 */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.university {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+
+/* 社交链接 */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: black;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+}
+
+/* 关于我的介绍 */
+.about-section,
+.education-section,
+.awards-section,
+.news-section,
+.internship-section {
+    max-width: 1100px; /* 增加最大宽度，但不超过 1200px */
+    width: 90%; /* 让其在小屏幕上适应 */
+    text-align: left;
+    font-size: 18px; /* 增大字体 */
+    line-height: 1.8; /* 增加行高，提升可读性 */
+    font-weight: 400;
+}
+
+/* 章节标题 */
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 列表样式 */
+.education-list,
+.awards-list,
+.news-list,
+.internship-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.education-list li,
+.awards-list li,
+.news-list li,
+.internship-list li {
+    font-size: 18px; /* 增大字体 */
+    margin-bottom: 10px;
+}
+
+/* 超链接样式 */
+.about-section a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: 400;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.about-section a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -0px; /* 调整下划线的位置 */
+    width: 0;
+    height: 1px;
+    background-color: #0073e6; /* 下划线颜色，可调整 */
+    opacity: 0; /* 初始状态透明 */
+    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.about-section a:hover {
+    color: #005bb5; /* 悬停时颜色变深 */
+}
+
+.about-section a:hover::after {
+    width: 100%; /* 让下划线展开 */
+    opacity: 1; /* 让下划线可见 */
+    left: 0; /* 从左侧开始扩展 */
+}

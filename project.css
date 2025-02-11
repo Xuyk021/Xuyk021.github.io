@@ -1,0 +1,147 @@
+/* 主要项目容器 */
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 50px;
+}
+
+.project-image-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    aspect-ratio: 16 / 10; /* 直接设置 16:10 的比例 */
+    overflow: hidden;
+}
+
+
+/* 图片 */
+.project-image {
+    width: 100%;
+    height: 100%;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* 小圆点容器 */
+.slider-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+/* 小圆点 */
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #333;
+}
+
+.project-name-link {
+    display: flex;
+    flex-direction: column;
+}
+.project-meta {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.project-content {
+    flex: 2; /* 让内容区域占据更多空间 */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* 让两个容器分别贴紧左右边线 */
+    align-items: flex-start; /* 让它们顶部对齐 */
+    width: 100%; /* 让内容区域填满整个可用宽度 */
+}
+
+
+/* 标题 */
+.project-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* 作者信息 */
+.project-authors {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+/* 摘要 */
+.project-abstract {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* 按钮区域 */
+.project-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    /* background-color: #f8f9fa; */
+    color: #333;
+    border: 1px solid #121212;
+    border-radius: 0;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #e9ecef;
+}
+
+/* 让整个部分在小屏幕上变为上下排列 */
+@media (max-width: 768px) {
+    .project-details {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project-image {
+        max-width: 100%;
+    }
+
+    .project-content {
+        width: 100%;
+    }
+
+    .project-links {
+        justify-content: center;
+    }
+}

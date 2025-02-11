@@ -1,0 +1,288 @@
+/* 全局样式 */
+.layout {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* 头部样式 */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 5%;
+    background-color: transparent;
+    z-index: 1000;
+    box-sizing: border-box;
+    /* transition: background-color 0.3s ease, box-shadow 0.3s ease; */
+    background: linear-gradient(
+        to top, 
+        rgba(255, 255, 255, 0) 0%, /* 顶部完全透明 */
+        rgba(255, 255, 255, 1) 75% /* 50% 处完全不透明 */
+    );
+}
+.header__info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header__name {
+    font-weight: 300;
+    position: relative;
+}
+.header__icon {
+    width: 1px;
+    height: 30px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header__name-cn {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 300;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+.nav__item {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    transition: color 0.3s ease; /* 添加过渡效果 */
+}
+
+
+.nav__item:hover {
+    color: #007BFF; /* 悬停时改变颜色 */
+}
+
+/* 菜单图标样式 */
+.menu-icon {
+    display: none; /* 默认隐藏 */
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* 弹出窗口样式 */
+.modal {
+    display: none; /* 默认隐藏 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* 半透明背景 */
+    z-index: 1001; /* 确保在头部之上 */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-content {
+    background-color: white;
+    padding: 60px;
+    /* border-radius: 10px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative; /* 为退出按钮定位 */
+}
+
+/* 退出按钮样式 */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 15px; /* 设置图标宽度 */
+    height: 15px; /* 设置图标高度 */
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* 添加透明度过渡效果 */
+}
+
+.close-btn:hover {
+    opacity: 0.7; /* 鼠标悬停时降低透明度 */
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .header__nav {
+        display: none; /* 在窄屏时隐藏 nav__item */
+    }
+
+    .menu-icon {
+        display: block; /* 在窄屏时显示菜单图标 */
+    }
+
+    .modal.active {
+        display: flex; /* 当菜单激活时显示 */
+    }
+}
+
+/* 版权信息 */
+.section {
+    position: fixed; /* 使用 fixed 定位，确保始终在底部 */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 5%;
+    box-sizing: border-box;
+    gap: 10px;
+    font-size: 12px;
+    z-index: 1000; /* 确保版权信息在最上层 */
+    background: linear-gradient(
+        to bottom, 
+        rgba(255, 255, 255, 0) 0%, /* 顶部完全透明 */
+        rgba(255, 255, 255, 1) 75% /* 50% 处完全不透明 */
+    );
+}
+
+
+.section__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0); /* 背景颜色带透明度 */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.copyright__text {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.copyright__icon {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+}
+
+/* 项目部分 */
+/* .projects {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 100px; 
+} */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* ✅ 让 `projects__title` 贴近 `.projects` 顶部 */
+    min-height: 100vh;
+    padding: 20px;
+    gap: 50px;
+    margin-top: 100px;
+    max-width: 1200px; /* ✅ 限制最大宽度 */
+    width: 100%;
+    margin-left: auto; /* ✅ 关键：让 `.projects` 水平居中 */
+    margin-right: auto;
+}
+
+.projects__title {
+    font-weight: 500;
+    font-size: 40px;
+    position: relative;
+    text-align: center; /* 居中对齐 */
+    max-width: 1200px; /* ✅ 让它和 `projects__list` 宽度保持一致 */
+    margin: 20px 0;
+}
+
+.projects__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* ✅ 自动填充网格 */
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: start; /* ✅ 让 `project-card` 从左对齐 */
+}
+
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%; /* ✅ 让每个项目卡片填充可用空间 */
+    border-bottom: 1px solid #e0e0e0; /* 设置底边线 */
+    padding-bottom: 5px; /* 添加一些内边距，让底边线不会紧贴内容 */
+}
+
+.project-card__image {
+    align-self: stretch;
+    max-width: 100%;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.project-card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.project-card__name {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.project-card__name::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -0px; /* 调整下划线的位置 */
+    width: 0;
+    height: 1px;
+    background-color: #141414; /* 你可以修改成合适的颜色 */
+    opacity: 0; /* 初始状态透明 */
+    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.project-card:hover .project-card__name::after {
+    width: 100%; /* 让下划线展开 */
+    opacity: 1; /* 让下划线可见 */
+    left: 0; /* 从左侧开始扩展 */
+}
+
+
+
+.project-card__year {
+    font-size: 12px;
+    font-weight: 300;
+    position: relative;
+}
+
+#projectDetails {
+    display: block;  /* 如果它默认是隐藏的，可以让它显示 */
+    width: 100%;  /* 你可以调整宽度 */
+    max-width: 1200px;  /* 限制最大宽度 */
+    margin: 20px auto;  /* 居中 */
+    padding: 20px;  /* 适当内边距 */
+
+}

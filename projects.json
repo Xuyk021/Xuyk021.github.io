@@ -1,0 +1,14 @@
+[
+    { "name": "Xhair", "year": 2024, "image": "./projects-fig/Xhair.png" },
+    { "name": "SocializeChat", "year": 2024, "image": "./projects-fig/SocializeChat.png" },
+    { "name": "Chasing", "year": 2023, "image": "./projects-fig/Chase.png" },
+    { "name": "SmartLumina", "year": 2023, "image": "./projects-fig/Light.png" },
+    { "name": "InteractiveRelics", "year": 2023, "image": "./projects-fig/InteractiveRelics.png" },
+    { "name": "Meals++", "year": 2023, "image": "./projects-fig/meals.png" },
+    { "name": "CityExploser", "year": 2023, "image": "./projects-fig/CityExploser.png" },
+    { "name": "Fell", "year": 2023, "image": "./projects-fig/Fell.png" },
+    { "name": "GlacialData", "year": 2022, "image": "./projects-fig/GlacialData.png" },
+    { "name": "Mogic", "year": 2023, "image": "./projects-fig/Mogic.png" },
+    { "name": "MotorCars", "year": 2022, "image": "./projects-fig/MotorCars.png" },
+    { "name": "Qieyema APP", "year": 2022, "image": "./projects-fig/QiyemaAPP.png" }
+]

@@ -1,0 +1,118 @@
+/* Gallery 内容整体容器 */
+.gallery-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 100px; /* 增加顶部间距 */
+}
+
+/* Gallery 标题 */
+.gallery__tittle {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* 图片网格容器 */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 自适应列数 */
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* 单个图片项 */
+.gallery-item {
+    width: 100%;
+    aspect-ratio: 3 / 2; /* 保持 3:2 比例 */
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+/* Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Lightbox 内的图片 */
+.lightbox-img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.lightbox-img.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.lightbox-img.slide-left {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.lightbox-img.slide-right {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+/* Lightbox 关闭按钮 */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+/* 左右切换按钮 */
+.nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+.nav:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+}

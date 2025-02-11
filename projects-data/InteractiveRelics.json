@@ -1,0 +1,17 @@
+{
+    "name": "InteractiveRelics",
+    "year": 2023,
+    "images": [
+        "./projects-data/InteractiveRelics/interactiverelics-teaser-1.png",
+        "./projects-data/InteractiveRelics/interactiverelics-teaser-2.png",
+        "./projects-data/InteractiveRelics/interactiverelics-teaser-3.png"
+    ], 
+    "authors": "Yunkai Xu",
+    "abstract": "The Sanxingdui Museum, situated in Sichuan, China, is famous for its vast collection of historical artifacts. However, like many museums, it encounters the challenge of captivating and retaining visitor interest. To enrich the visitor experience, deepen their comprehension, and foster greater appreciation of the Sanxingdui artifacts, I've created an innovative interactive gaming system centered around the stories of these artifacts, using the bronze figurine as an example.",
+    "pdf": "https://drive.google.com/file/d/1VJyTpT7YVbSJ1DQmTbxJwFK9O1r7vPV0/view?usp=sharing",
+    "publication": "",
+    "video": "",
+    "showPdf": true,
+    "showVideo": false,
+    "showPublication": false
+}

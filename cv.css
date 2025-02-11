@@ -1,0 +1,47 @@
+/* 全局样式 */
+body {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    min-height: 100vh; /* 让整个页面至少占满屏幕 */
+}
+
+/* 让 PDF 容器始终居中 */
+#pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* 限制最大宽度 */
+    height: 90vh; /* 让 PDF 预览更大 */
+    margin: auto; /* 确保它在中间 */
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* 让 iframe 也居中，并且最大宽度 1200px */
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 1200px; /* 限制最大宽度 */
+    height: 100%;
+    border: 1px solid #ddd;
+    /* border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); */
+}
+
+/* 适配小屏幕 */
+@media (max-width: 768px) {
+    body {
+        align-items: flex-start; /* 让小屏幕的内容靠上 */
+    }
+
+    #pdf-container {
+        width: 95%;
+        height: 80vh; /* 在小屏幕上保持合适高度 */
+    }
+
+    iframe {
+        height: 75vh; /* 适配移动端 */
+    }
+}

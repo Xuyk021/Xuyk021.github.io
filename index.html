@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Yunkai Xu | Pennsylvania State University</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./projects.css" />
+    <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./publication.css" />
+    <link rel="stylesheet" href="./gallery.css" />
+    <link rel="stylesheet" href="./cv.css" />
+    <link rel="stylesheet" href="./project.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.9.179/pdf.min.js"></script>
+</head>
+
+
+<body>
+    <div class="layout">
+        <header class="header">
+            <div class="header__info">
+                <p class="header__name">Yunkai Xu</p>
+                <img class="header__icon" alt="" src="head-icon.png">
+                <p class="header__name-cn">徐 云楷</p>
+            </div>
+            <nav class="header__nav">
+                <a class="nav__item" href="about.html" data-page="about">About</a>
+                <a class="nav__item" href="projects.html" data-page="projects">Projects</a>
+                <a class="nav__item" href="publication.html" data-page="publication">Publication</a>
+                <a class="nav__item" href="gallery.html" data-page="gallery">Gallery</a>
+                <a class="nav__item" href="cv.html" data-page="cv">CV</a>
+            </nav>
+            <div class="menu-icon" id="menuIcon">&#9776;</div> <!-- 三横杠图标 -->
+        </header>
+        
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <img src="closeBtn.svg" alt="Close" class="close-btn" id="closeBtn"> <!-- 退出按钮 -->
+                <a class="nav__item" href="about.html" data-page="about">About</a>
+                <a class="nav__item" href="projects.html" data-page="projects">Projects</a>
+                <a class="nav__item" href="publication.html" data-page="publication">Publication</a>
+                <a class="nav__item" href="gallery.html">Gallery</a>
+                <a class="nav__item" href="cv.html" data-page="cv">CV</a>
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="section__copyright">
+                <span class="copyright__text">Copyright</span>
+                <img class="copyright__icon" alt="" src="copyright.svg">
+                <span class="copyright__text">Yunkai Xu, 2025</span>
+            </div>
+        </section>
+        
+        <main id="content">
+            
+        </main>
+
+    </div>
+    <!-- 引入外部 JavaScript 文件 -->
+    <script src="pages.js"></script>
+    <script src="header.js"></script>
+    <script src="cv.js"></script>
+    <script src="projects.js"></script>
+    <script src="gallery.js"></script>
+    <script src="project.js"></script>
+    <!-- <script src="pdf.js"></script> -->
+</body>
+</html>

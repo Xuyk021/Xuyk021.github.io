@@ -1,0 +1,17 @@
+{
+    "name": "CityExploser",
+    "year": 2023,
+    "images": [
+        "./projects-data/CityExploser/cityexploser-teaser-1.png",
+        "./projects-data/CityExploser/cityexploser-teaser-2.png",
+        "./projects-data/CityExploser/cityexploser-teaser-3.png"
+    ], 
+    "authors": "Qi Zheng, Yunkai Xu, Yifu Zhang, Siyang Shen, Xiaohan Yan",
+    "abstract": "We have developed a Maya plugin that allows for the easy generation of cities and the creation of rendering animations featuring city explosions. This includes city generation algorithms, object fragmentation algorithms, and rigid body dynamics algorithms.",
+    "pdf": "",
+    "publication": "",
+    "video": "https://youtu.be/WnpvzDuHlKc",
+    "showPdf": false,
+    "showVideo": true,
+    "showPublication": false
+}

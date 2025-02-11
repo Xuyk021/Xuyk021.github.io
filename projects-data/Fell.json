@@ -1,0 +1,18 @@
+{
+    "name": "Fell",
+    "year": 2023,
+    "images": [
+        "./projects-data/Fell/fell-teaser-1.png",
+        "./projects-data/Fell/fell-teaser-2.png",
+        "./projects-data/Fell/fell-teaser-3.png",
+        "./projects-data/Fell/fell-teaser-4.png"
+    ], 
+    "authors": "Yunkai Xu, Ziang Xu, Yinping Chen",
+    "abstract": "Often, we tend to prioritize the accuracy of time represented by numbers but overlook the essential nature of time itself.\n\nWe aim to break away from the cold and ordinary style of traditional clocks and seek another form of visualizing time. We want to showcase the beauty and artistic sense of clocks, allowing people to perceive the existence and passage of time in a more intuitive way.",
+    "pdf": "",
+    "publication": "",
+    "video": "https://youtu.be/XhZqMwdzWlU",
+    "showPdf": false,
+    "showVideo": true,
+    "showPublication": false
+}

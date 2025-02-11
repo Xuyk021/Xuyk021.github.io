@@ -1,0 +1,16 @@
+{
+    "name": "Meals++",
+    "year": 2023,
+    "images": [
+        "./projects-data/Meals/meals-teaser-1.png",
+        "./projects-data/Meals/meals-teaser-2.png"
+    ], 
+    "authors": "Yunkai Xu",
+    "abstract": "Elderly people in China face dietary imbalance due to economic constraints as a developing country, coupled with a lack of motivation for a balanced diet. Research reveals that they have more diverse menus when cooking for their extended families. To address this, I developed a system using intelligent projection technology to assist them in meal preparation. By simulating the scenario of a large family cooking together, it ignites their interest in cooking for themselves. This system enables natural interaction and lowers the learning curve.",
+    "pdf": "https://drive.google.com/file/d/1FfhsaBa6U2VTjn7eRioWLkMquUEyIVsF/view?usp=sharing",
+    "publication": "",
+    "video": "",
+    "showPdf": true,
+    "showVideo": false,
+    "showPublication": false
+}

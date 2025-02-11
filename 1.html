@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>查看 CV</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.9.179/pdf.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #pdf-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        canvas {
+            border: 1px solid black;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>徐云楷的 CV</h2>
+    <div id="pdf-container">
+        <canvas id="pdf-canvas"></canvas>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const url = "cv/XU Yunkai CV.pdf";  // PDF 文件路径
+
+            const pdfjsLib = window['pdfjs-dist/build/pdf'];
+            pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.9.179/pdf.worker.min.js";
+
+            const loadingTask = pdfjsLib.getDocument(url);
+            loadingTask.promise.then(function(pdf) {
+                console.log("PDF 加载完成");
+
+                // 只显示第一页
+                pdf.getPage(1).then(function(page) {
+                    const scale = 1.5; // 放大倍数
+                    const viewport = page.getViewport({ scale });
+
+                    // 创建 canvas 以渲染 PDF 页面
+                    const canvas = document.getElementById("pdf-canvas");
+                    const context = canvas.getContext("2d");
+                    canvas.width = viewport.width;
+                    canvas.height = viewport.height;
+
+                    // 渲染 PDF 页面到 canvas
+                    const renderContext = {
+                        canvasContext: context,
+                        viewport: viewport
+                    };
+                    page.render(renderContext);
+                });
+            }).catch(function(error) {
+                console.error("PDF 加载错误:", error);
+            });
+        });
+    </script>
+</body>
+</html>
