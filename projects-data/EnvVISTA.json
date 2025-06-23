@@ -1,0 +1,15 @@
+{
+    "name": "EnvVISTA",
+    "year": 2025,
+    "images": [
+        "./projects-data/EnvVISTA/EnvVISTA-teaser-1.png"
+    ], 
+    "authors": "Yunkai Xu, Yihao Zhou, Hao Cai (joint contribution by all three members)",
+    "abstract": "Climate change communication often struggles to make complex data accessible and personally relevant. We present EnvVISTA, a work-in-progress serious game that combines geovisualization, gamified exploration, and large language models (LLMs) to support playful engagement with real-world environmental data. Using datasets from New York City, the system enables users to explore issues like air quality and vegetation through interactive maps, AI-generated narratives, and conversational interactions. LLMs serve multiple roles—from storytelling to insight evaluation—creating a dynamic, responsive interaction loop. EnvVISTA demonstrates a novel approach to environmental data storytelling and offers a testbed for future research on AI-assisted, emotionally resonant climate games.",
+    "pdf": "",
+    "publication": "",
+    "video": "",
+    "showPdf": false,
+    "showVideo": false,
+    "showPublication": false
+}

@@ -125,6 +125,41 @@
     padding: 0;
     text-align: left;
 }
+.internship-list a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .internship-list a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 3px; /* 下划线距离文字的距离 */
+    width: 0;
+    height: 1.0px;
+    background-color: currentColor;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+  }
+  
+  .internship-list a:hover::after {
+    width: 100%;
+  }
+  
+    
+
+.internship-desc {
+    margin-left: 1em;         /* 缩进 */
+    font-size: 0.9em;         /* 稍小的字体 */
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+  }
+  
+  
 
 .education-list li,
 .awards-list li,

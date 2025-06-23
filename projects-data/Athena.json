@@ -1,0 +1,15 @@
+{
+    "name": "Athena",
+    "year": 2025,
+    "images": [
+        "./projects-data/Athena/athena-teaser-1.png"
+    ], 
+    "authors": "Matt Murtagh White, Yunkai Xu, Nicole Le{ó}n (joint contribution by all three members)",
+    "abstract": "Keyword-based search remains the default interaction model for public digital libraries, yet it often limits some users in discovering relevant literature. We present a conversational book discovery interface powered by a Retrieval-Augmented Generation (RAG) Large Language Model (LLM), designed as an alternative to traditional search on platforms like Project Gutenberg. The system supports natural language queries, visualizes literature relationships through interactive graphs, and summarizes book metadata using bibliographic data. We conducted a within-subjects study in which participants performed book retrieval tasks using both our prototype and the original website. Quantitative and qualitative results indicate notable improvements in retrieval accuracy, user satisfaction, and support for exploratory search. We also discuss challenges related to LLM-generated content and propose design directions for integrating LLMs into digital library interfaces. Our work demonstrates how LLMs can extend the interaction capabilities of open-access tools toward more natural, engaging, and discoverable digital repository experiences.",
+    "pdf": "",
+    "publication": "",
+    "video": "",
+    "showPdf": false,
+    "showVideo": false,
+    "showPublication": false
+}

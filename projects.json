@@ -1,4 +1,6 @@
 [
+    { "name": "Athena", "year": 2025, "image": "./projects-fig/Athena.png" },
+    { "name": "EnvVISTA", "year": 2025, "image": "./projects-fig/EnvVISTA.png" },
     { "name": "Xhair", "year": 2024, "image": "./projects-fig/Xhair.png" },
     { "name": "SocializeChat", "year": 2024, "image": "./projects-fig/SocializeChat.png" },
     { "name": "Chasing", "year": 2023, "image": "./projects-fig/Chase.png" },
