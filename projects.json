@@ -9,8 +9,7 @@
     { "name": "Meals++", "year": 2023, "image": "./projects-fig/meals.png" },
     { "name": "CityExploser", "year": 2023, "image": "./projects-fig/CityExploser.png" },
     { "name": "Fell", "year": 2023, "image": "./projects-fig/Fell.png" },
-    { "name": "GlacialData", "year": 2022, "image": "./projects-fig/GlacialData.png" },
     { "name": "Mogic", "year": 2023, "image": "./projects-fig/Mogic.png" },
-    { "name": "MotorCars", "year": 2022, "image": "./projects-fig/MotorCars.png" },
-    { "name": "Qieyema APP", "year": 2022, "image": "./projects-fig/QiyemaAPP.png" }
+    { "name": "GlacialData", "year": 2022, "image": "./projects-fig/GlacialData.png" },
+    { "name": "QiyemaAPP", "year": 2022, "image": "./projects-fig/QiyemaAPP.png" }
 ]

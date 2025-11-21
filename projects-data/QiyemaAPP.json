@@ -1,0 +1,15 @@
+{
+    "name": "QiyemaAPP",
+    "year": 2024,
+    "images": [
+        "./projects-data/QiyemaAPP/qiyemaapp-teaser-1.png"
+    ], 
+    "authors": "Yunkai Xu, Shengyi Zhan, Zhenghua Pan, Xin Zheng",
+    "abstract": "We redesigned the mobile user experience of the Qiyema app. The upgrade was driven by data. With authorized access to one month of clickstream data, we analyzed interaction breakpoints across the workflow. We also conducted an eye-tracking user study to identify mismatches between user attention and the existing interface design, which informed our redesign.",
+    "pdf": "https://drive.google.com/drive/folders/1gsJMaTUS27dQ4guWyG_LmR57mz7hz0KU?usp=sharing",
+    "publication": "https://dl.acm.org/doi/10.1145/3654777.3676360",
+    "video": "https://drive.google.com/file/d/1nJgqupyArvnj_C2XWsXNy-TW8jwOdkMF/view?usp=sharing",
+    "showPdf": true,
+    "showVideo": true,
+    "showPublication": false
+}
